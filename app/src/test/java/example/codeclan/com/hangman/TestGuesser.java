@@ -5,6 +5,7 @@ import org.junit.Test;
 
 import java.util.ArrayList;
 
+import static org.junit.Assert.assertArrayEquals;
 import static org.junit.Assert.assertEquals;
 
 /**
@@ -45,7 +46,11 @@ public class TestGuesser
         assertEquals(new Character('p'), guesser.getGuesses().get(guesser.getGuesses().size()-1));
     }
 
-
+//    @Test
+//    public void canGetGuesses(){
+//    assertArrayEquals();
+//
+//    }
 
 
 

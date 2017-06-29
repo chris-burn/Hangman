@@ -50,10 +50,18 @@ public class TestAsker
     }
 
     @Test
-    public void canGetUncoveredWord(){
-
-
+    public void canGetCoveredWord(){
+        asker.setWord("aubergine");
+        assertEquals("aubergine", asker.getWord());
+        assertEquals("*********", asker.getCoveredWord());
     }
+
+//    @Test
+//    public void canGetIndices(){
+//        asker.setWord("Test");
+//
+//    }
+
 
 
 }
